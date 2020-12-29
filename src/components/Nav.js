@@ -20,6 +20,7 @@ const Nav = () => (
             <li class="nav-item">
             <Link to="/contact" class="nav-link text-white text1">Contact</Link>
             </li>
+            
 
         </ul>
     </nav>

@@ -62,11 +62,22 @@ h1{
    h1:hover{
     transform: translateY(-20px);
    }
+.btn_1{
+    margin: 1rem 0 !important;
+    outline: none !important;
+    color:  yellow  !important;
+    background-color: rgb(58, 47, 47) !important;
+}
 
 .type-wrap h2{
     font-size: 3rem;
 }
-
+.icon{
+    display: none;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+}
 .span_1{
     color: rgb(58, 47, 47);
     margin: 0;
@@ -96,6 +107,15 @@ h1{
     height: auto;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
+.image_second{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-left: 8rem;
+    max-width: 80%;
+    height: auto;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
 
 .box-container img{
     width: 6rem;
@@ -258,11 +278,9 @@ h1{
     color:rgb(58, 47, 47);
 }
 .btn{
-  color:rgb(58, 47, 47);
+  outline: none !important;
 }
-.btn:hover{
-    color: #fff;
-}
+
 .image_3{
     width: 2rem;
     height: 2rem;
@@ -299,8 +317,42 @@ footer{
     width: 100%;
     height: 2.5rem; 
 }
+@media only screen and (min-width: 300px) {
+    .image_second{
+        display: block;
+        max-width: 80%;
+           margin-left: 2rem;
+    }
+    .image{
+        display:none;
+ }
+ .wrap h2{
+    font-size: 1.5rem;
+}
+.experience{
+    width:90%;
+}
+}
+
   
-/* Extra small devices (phones, 600px and down) */
+@media (min-width:375px) and (max-width:595px) {
+    .wrap h2{
+        font-size: 1.9rem;
+    }
+    .image{
+        max-width: 60%;
+        margin-left: 5rem;
+        display:none;
+ }
+ .experience{
+     width:90%;
+ }
+ .image_second{
+     display: block;
+     max-width: 80%;
+        margin-left: 2.5rem;
+ }
+}
 @media only screen and (max-width: 600px) {
     .image{
         max-width: 60%;
@@ -363,6 +415,7 @@ footer{
     .image{
         max-width: 80%;
         margin-left: 3rem;
+        display: none;
  }
  .vector_2{
     display:none;
@@ -370,6 +423,24 @@ footer{
   .vector_3{
     display:block;
   }
+  .image_second{
+    display: block;
+    max-width: 80%;
+    margin-left: 4rem;
+}
+.wrap h2{
+    font-size: 1.9rem;
+}
+.home_1{
+    margin: 2rem 0;
+}
+.experience{
+    margin-top: 8rem !important;
+    
+}
+.box-container{
+    margin-left: 3.5rem;
+}
 }
 
 
@@ -390,5 +461,38 @@ footer{
     padding-right: 0.4rem;
 }
 }
+@media (min-width:1024px) and (max-width:1200px) {
+    .image{
+        display: none;
+ }
+ 
+ .image_second{
+    display: block;
+    max-width: 80%;
+    margin-left: 4rem;
+}
+.home{
+    width: 90%;
+ }
+ .box-container{
+    width: 90%;
+ }
+ .experience{
+    margin-top: 9rem !important;
+}
+}
 
-   
+@media (min-width:1200px) and (max-width:1500px) {
+    .image{
+        display: none;
+ }
+ .home_1 p{
+   padding:0 2rem;
+}
+.vector_2{
+    display:none;
+  }
+  .vector_3{
+    display:block;
+  }
+}
