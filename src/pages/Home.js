@@ -1,29 +1,29 @@
 import React from 'react';
 import Layout from '../layout';
 import TypedReactDemo from './TypedReactDemo';
-import Img from '../images/vector.jpg';
-import Img1 from '../images/bootstrap.svg';
-import Img2 from '../images/css3.svg';
-import Img3 from '../images/figma.svg';
-import Img4 from '../images/react.svg';
-import Img5 from '../images/wordpress.svg';
-import Img6 from '../images/js.svg';
-import Img7 from '../images/phone.svg';
-import Img8 from '../images/location.svg';
-import Img9 from '../images/email.svg';
-import Img10 from '../images/linkedin.svg';
-import Img11 from '../images/twitter.svg';
-import Img12 from '../images/github.svg';
-import Img13 from '../images/image1.PNG';
-import Img14 from '../images/image2.PNG';
-import Img15 from '../images/image9.PNG';
-import Img16 from '../images/image4.PNG';
-import Img17 from '../images/image5.PNG';
-import Img18 from '../images/image6.PNG';
-import Img19 from '../images/image7.PNG';
-import Img20 from '../images/image8.PNG';
-import Img21 from '../images/image.PNG';
-import Img22 from '../images/vector2.jpg';
+// // import Img from '../images/vector.jpg';
+// import Img1 from '../images/bootstrap.svg';
+// import Img2 from '../images/css3.svg';
+// import Img3 from '../images/figma.svg';
+// // import Img4 from '../images/react.svg';
+// import Img5 from '../images/wordpress.svg';
+// import Img6 from '../images/js.svg';
+// import Img7 from '../images/phone.svg';
+// import Img8 from '../images/location.svg';
+// import Img9 from '../images/email.svg';
+// import Img10 from '../images/linkedin.svg';
+// import Img11 from '../images/twitter.svg';
+// import Img12 from '../images/github.svg';
+// import Img13 from '../images/image1.PNG';
+// import Img14 from '../images/image2.PNG';
+// import Img15 from '../images/image9.PNG';
+// import Img16 from '../images/image4.PNG';
+// import Img17 from '../images/image5.PNG';
+// import Img18 from '../images/image6.PNG';
+// import Img19 from '../images/image7.PNG';
+// import Img20 from '../images/image8.PNG';
+// import Img21 from '../images/image.PNG';
+// import Img22 from '../images/vector2.jpg';
 
 
 
@@ -32,10 +32,10 @@ const Home = () =>
   <Layout>
  
     <section className="container home">
-      <div className="row align-items-center min-vh-100 min-vw-100">
-
+      <div className="row align-items-center home1">
+{/* min-vh-100 min-vw-100 */}
       <div className="col-md-6">
-          <img src={Img} alt="pic" class="img-fluid image_second" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" class="img-fluid image_second" />
         </div>
 
         <div className="col-md-6 text-center home_1">
@@ -56,7 +56,7 @@ const Home = () =>
           </div>
         </div>
         <div className="col-md-6">
-          <img src={Img} alt="pic" class="img-fluid image" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" class="img-fluid image" />
         </div>
       </div>
     </section>
@@ -65,32 +65,32 @@ const Home = () =>
       <div> <h1>Skills</h1></div>
       <div className=" col-md-12 box-container">
         <div className="box">
-          <img src={Img4} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306322/react_ktgiby.svg"} alt="pic" class="image_1" />
           <h5>React JS</h5>
         </div>
 
         <div className="box">
-          <img src={Img6} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306317/js_rbk7fv.svg"} alt="pic" class="image_1" />
           <h5>Javascript</h5>
         </div>
 
         <div className="box">
-          <img src={Img1} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/bootstrap_p4ixck.svg"} alt="pic" class="image_1" />
           <h5>Bootstrap 4</h5>
         </div>
 
         <div className="box">
-          <img src={Img2} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/css3_rvm9xy.svg"} alt="pic" class="image_1" />
           <h5>CSS 3</h5>
         </div>
 
         <div className="box">
-          <img src={Img3} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/figma_nwrjm0.svg"} alt="pic" class="image_1" />
           <h5>Figma</h5>
         </div>
 
         <div className="box">
-          <img src={Img5} alt="pic" class="image_1" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306307/wordpress_wex6we.svg"} alt="pic" class="image_1" />
           <h5>WordPress</h5>
         </div>
       </div>
@@ -142,7 +142,7 @@ const Home = () =>
       <div><h1>Projects</h1></div>
       <div className="row">
         <div className="col-md-4 projects_1">
-          <img src={Img13} alt="pic" className="image_5 img-fluid" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/image1_mzste9.png"} alt="pic" className="image_5 img-fluid" />
           <h4>ORDER-AM</h4>
           <p>An Online Food Store</p>
           <div className="button_class d-flex justify-content-center">
@@ -151,7 +151,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-           <img src={Img14} alt="pic" className="image_5 img-fluid" />
+           <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/image2_rhzrmu.png"} alt="pic" className="image_5 img-fluid" />
           <h4>SPEEDYAUTOS</h4>
           <p>An Automobiles Website</p>
           <div className="button_class d-flex justify-content-center">
@@ -160,7 +160,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-          <img src={Img15} alt="pic" className="image_5 img-fluid" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306316/image9_swsdip.png"} alt="pic" className="image_5 img-fluid" />
           <h4>CITITRAVELERS</h4>
           <p>A Traveling/ Visa Consultant Agency</p>
           <div className="button_class d-flex justify-content-center">
@@ -169,7 +169,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-          <a href="http://isarungano.co.zw/"> <img src={Img16} alt="pic" className="image_5 img-fluid" /></a>
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306312/image4_pdthlv.png"} alt="pic" className="image_5 img-fluid" />
           <h4>ISARUNGANO</h4>
           <p>A Zimbabwean Online StoryTeller</p>
           <div className="button_class d-flex justify-content-center">
@@ -178,7 +178,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-         <img src={Img17} alt="pic" className="image_5 img-fluid" />
+         <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306309/image5_rjr66p.png"} alt="pic" className="image_5 img-fluid" />
           <h4>A SIGNIN PAGE </h4>
           <p>A Signin Page linked to GOOGLESHEETS to save inputted Data</p>
           <div className="button_class d-flex justify-content-center">
@@ -188,7 +188,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-         <img src={Img18} alt="pic" className="image_5 img-fluid" />
+         <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306332/image6_cclkcv.png"} alt="pic" className="image_5 img-fluid" />
           <h4>EKO MARKET SHOP</h4>
           <p>An E-Commerce Store </p>
           <div className="button_class d-flex justify-content-center">
@@ -197,7 +197,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-          <img src={Img19} alt="pic" className="image_5 img-fluid" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306320/image7_zpx42y.png"} alt="pic" className="image_5 img-fluid" />
           <h4>MY GITHUB REPOSITORY CLONE</h4>
           <p>I used GITHUB GRAPHQL API to fetch Data</p>
           <div className="button_class d-flex justify-content-center">
@@ -206,7 +206,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-          <img src={Img20} alt="pic" className="image_5 img-fluid" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306324/image8_kaebjm.png"} alt="pic" className="image_5 img-fluid" />
           <h4>A REACT WEATHER APP</h4>
           <p> Get all the information that you’ll need about your weather and forecast.</p>
           <div className="button_class d-flex justify-content-center">
@@ -215,7 +215,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-4 projects_1">
-         <img src={Img21} alt="pic" className="image_5 img-fluid" />
+         <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306317/image_nhzdj6.png"} alt="pic" className="image_5 img-fluid" />
           <h4>HEUOS</h4>
           <p>A Software Development Company</p>
           <div className="button_class d-flex justify-content-center">
@@ -231,29 +231,29 @@ const Home = () =>
       <div className="row align-items-center">
 
       <div className="col-md-6">
-        <img src={Img22} alt="pic" className="img-fluid vector_3" />
+        <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306331/vector2_ktmhy6.jpg"} alt="pic" className="img-fluid vector_3" />
         </div>
 
         <div className="col-md-4 info">
 
           <div className="info-box">
-            <h4> <img src={Img9} alt="pic" className="image_2" /><span>PrincessJewel80@gmail.com</span></h4>
+            <h4> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/email_otd9pj.svg"} alt="pic" className="image_2" /><span>PrincessJewel80@gmail.com</span></h4>
           </div>
 
           <div className="info-box">
-            <h4><img src={Img7} alt="pic" className="image_2" /><span>+2349061312216</span></h4>
-            <h4><img src={Img7} alt="pic" className="image_2" /><span>+2347083368633</span></h4>
+            <h4><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2349061312216</span></h4>
+            <h4><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2347083368633</span></h4>
           </div>
 
           <div className="info-box">
-            <h4> <img src={Img8} alt="pic" className="image_2" /><span>Lagos-Nigeria </span> </h4>
+            <h4> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306319/location_pljare.svg"} alt="pic" className="image_2" /><span>Lagos-Nigeria </span> </h4>
           </div>
 
           <div className="socials">
             <ul>
-              <li><a href="https://linkedin.com/in/princess-jewel-jel-edema"> <img src={Img10} alt="pic" className="image_3" /></a></li>
-              <li><a href="https://twitter.com/thatebonychic/"> <img src={Img11} alt="pic" className="image_3" /></a></li>
-              <li><a href="https://github.com/Princess-Jewel/"> <img src={Img12} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://linkedin.com/in/princess-jewel-jel-edema"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/linkedin_oe1h3e.svg"} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://twitter.com/thatebonychic/"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306322/twitter_kl30sw.svg"} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://github.com/Princess-Jewel/"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306307/github_twjnkw.svg"} alt="pic" className="image_3" /></a></li>
             </ul>
           </div>
 
@@ -264,7 +264,7 @@ const Home = () =>
         </div>
 
         <div className="col-md-6">
-        <img src={Img22} alt="pic" className="img-fluid vector_2" />
+        <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306331/vector2_ktmhy6.jpg"} alt="pic" className="img-fluid vector_2" />
         </div>
       </div>
     </section>
