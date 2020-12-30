@@ -1,5 +1,6 @@
 import React from 'react';
 import Typed from 'typed.js';
+
 class TypedReactDemo extends React.Component {
   componentDidMount() {
     // If you want to pass more options as props, simply add
