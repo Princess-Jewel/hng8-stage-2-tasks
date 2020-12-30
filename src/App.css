@@ -28,15 +28,15 @@ html{
       background-color: rgb(80, 69, 69) !important;
       color: #fff!important ;
   }
-  .text1:hover{
+  .text1:hover,:focus{
       color: #000 !important;
-      border-bottom: 2px red !important;
       background-color: rgb(80, 69, 69) !important;
 
   }
+  
   .nav_1:focus{
+    color: #000 !important;
     background-color: rgb(80, 69, 69) !important;
-    color: #fff!important ;
   }
 
 h1{
