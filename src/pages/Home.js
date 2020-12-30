@@ -1,29 +1,7 @@
 import React from 'react';
 import Layout from '../layout';
 import TypedReactDemo from './TypedReactDemo';
-// // import Img from '../images/vector.jpg';
-// import Img1 from '../images/bootstrap.svg';
-// import Img2 from '../images/css3.svg';
-// import Img3 from '../images/figma.svg';
-// // import Img4 from '../images/react.svg';
-// import Img5 from '../images/wordpress.svg';
-// import Img6 from '../images/js.svg';
-// import Img7 from '../images/phone.svg';
-// import Img8 from '../images/location.svg';
-// import Img9 from '../images/email.svg';
-// import Img10 from '../images/linkedin.svg';
-// import Img11 from '../images/twitter.svg';
-// import Img12 from '../images/github.svg';
-// import Img13 from '../images/image1.PNG';
-// import Img14 from '../images/image2.PNG';
-// import Img15 from '../images/image9.PNG';
-// import Img16 from '../images/image4.PNG';
-// import Img17 from '../images/image5.PNG';
-// import Img18 from '../images/image6.PNG';
-// import Img19 from '../images/image7.PNG';
-// import Img20 from '../images/image8.PNG';
-// import Img21 from '../images/image.PNG';
-// import Img22 from '../images/vector2.jpg';
+
 
 
 
