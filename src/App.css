@@ -44,7 +44,6 @@ h1{
        text-align: center;
        color: #333;
        margin: 3rem 0;
-       padding-top: 5.5rem;
        padding-bottom: 1rem;
        position: relative;
    }
@@ -251,7 +250,7 @@ h1{
 
 .info-box span{
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -264,13 +263,17 @@ h1{
  
 }
 
-
+.projects, .experience, .home{
+    margin-bottom: 10rem;
+}
 .projects_1{
     padding: 3rem;
+  
 }
 .projects_1 p{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align:center;
+    margin-top: 2rem;
 }
 .projects_1 h4{
     font-size: 2rem;
@@ -278,8 +281,10 @@ h1{
     padding-top: 1rem;
     color:rgb(58, 47, 47);
 }
+
 .btn{
   outline: none !important;
+  margin-top: 2rem !important;
 }
 
 .image_3{
@@ -317,6 +322,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 2.5rem; 
+    padding: 2rem 0 4rem 0;
 }
 
 
@@ -330,7 +336,7 @@ footer{
         display:none;
  }
  .wrap h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .experience{
     width:90%;

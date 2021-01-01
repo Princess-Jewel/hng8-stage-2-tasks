@@ -4,7 +4,7 @@ import Layout from '../layout';
 
 const About = () => 
     <Layout>
-        <section className="container skills">
+       <section className="container skills">
       <div> <h1>Skills</h1></div>
       <div className=" col-md-12 box-container">
         <div className="box">

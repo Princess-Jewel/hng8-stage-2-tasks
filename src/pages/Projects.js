@@ -91,7 +91,6 @@ const Projects = () =>
 
       </div>
     </section>
-
     </Layout>
 ;
 

@@ -4,7 +4,7 @@ import Layout from '../layout';
 
 const Contact = () => 
     <Layout>
-      <section className="container contact">
+    <section className="container contact">
       <div><h1>Contact Me</h1></div>
       <div className="row align-items-center">
 
@@ -15,16 +15,16 @@ const Contact = () =>
         <div className="col-md-4 info">
 
           <div className="info-box">
-            <h4> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/email_otd9pj.svg"} alt="pic" className="image_2" /><span>PrincessJewel80@gmail.com</span></h4>
+            <p> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306305/email_otd9pj.svg"} alt="pic" className="image_2" /><span>PrincessJewel80@gmail.com</span></p>
           </div>
 
           <div className="info-box">
-            <h4><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2349061312216</span></h4>
-            <h4><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2347083368633</span></h4>
+            <p><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2349061312216</span></p>
+            <p><img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/phone_cv21sh.svg"} alt="pic" className="image_2" /><span>+2347083368633</span></p>
           </div>
 
           <div className="info-box">
-            <h4> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306319/location_pljare.svg"} alt="pic" className="image_2" /><span>Lagos-Nigeria </span> </h4>
+            <p> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306319/location_pljare.svg"} alt="pic" className="image_2" /><span>Lagos-Nigeria </span> </p>
           </div>
 
           <div className="socials">
@@ -46,6 +46,8 @@ const Contact = () =>
         </div>
       </div>
     </section>
+
+
     </Layout>
 ;
 
