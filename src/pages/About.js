@@ -41,7 +41,7 @@ const About = () =>
 
 
 
-    <section className="container experience mt-5">
+    <section className="container experience ">
       <div><h1>Work Experiences</h1></div>
       <div className="row justify-content-around  mb-5">
         <div className="col-md-4">
