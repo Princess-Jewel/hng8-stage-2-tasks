@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../layout';
 import TypedReactDemo from './TypedReactDemo';
-// import About from '../pages/About';
-// import Projects from '../pages/Projects';
-// import Contact from '../pages/Contact';
+import About from '../pages/About';
+import Projects from '../pages/Projects';
+import Contact from '../pages/Contact';
 
 
 
@@ -41,6 +41,9 @@ const Home = () =>
         </div>
       </div>
     </section>
+    <Projects/>
+    <About/>
+    <Contact/>
   </Layout>
   ;
 

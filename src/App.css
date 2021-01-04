@@ -24,6 +24,15 @@ html{
   #content-wrap {
     padding-bottom: 2.5rem;    
   }
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container {
+    padding-top: 30px;
+  }
   .nav_1{
       background-color: rgb(80, 69, 69) !important;
       color: #fff!important ;
