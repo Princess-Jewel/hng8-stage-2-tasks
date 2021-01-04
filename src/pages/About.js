@@ -50,13 +50,12 @@ const About = () =>
             <h3>CitiTravelers</h3>
             <p>Created database schemas with MySQL and assisted with Frontend development where needed. </p>
             <p> Integrated Paystack's API to the site to handle payment so users can subscribe and pay for certain features.</p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p>Assisted with maintenance of clients' websites.</p>
           </div>
         </div>
         <div className="col-md-4">
           <div className="box_1">
-            <div className="year">08.2020 - present</div>
+            <div className="year">08.2020 - 12.2020</div>
             <h3>Heuos</h3>
             <p>Wrote RESTful APIs to be consumed by the Frontend team.</p>
             <p> Integrated SOAP APIs of top Financial Institutions.</p>
