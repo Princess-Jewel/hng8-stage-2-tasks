@@ -6,9 +6,6 @@ import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 
 
-
-
-
 const Home = () =>
   <Layout>
 
