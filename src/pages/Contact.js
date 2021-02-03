@@ -29,9 +29,9 @@ const Contact = () =>
 
           <div className="socials">
             <ul>
-              <li><a href="https://linkedin.com/in/princess-jewel-jel-edema"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/linkedin_oe1h3e.svg"} alt="pic" className="image_3" /></a></li>
-              <li><a href="https://twitter.com/thatebonychic/"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306322/twitter_kl30sw.svg"} alt="pic" className="image_3" /></a></li>
-              <li><a href="https://github.com/Princess-Jewel/"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306307/github_twjnkw.svg"} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://linkedin.com/in/princess-jewel-jel-edema" target="_blank" rel="noopener noreferrer"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/linkedin_oe1h3e.svg"} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://twitter.com/thatebonychic/" target="_blank" rel="noopener noreferrer"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306322/twitter_kl30sw.svg"} alt="pic" className="image_3" /></a></li>
+              <li><a href="https://github.com/Princess-Jewel/" target="_blank" rel="noopener noreferrer"> <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306307/github_twjnkw.svg"} alt="pic" className="image_3" /></a></li>
             </ul>
           </div>
 

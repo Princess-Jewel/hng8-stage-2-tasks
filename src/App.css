@@ -292,6 +292,12 @@ h1{
     padding-top: 1rem;
     color:rgb(58, 47, 47);
 }
+.view_more_btn{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100px !important;
+}
 
 .btn{
   outline: none !important;
@@ -382,6 +388,7 @@ footer{
         margin-left: 5rem;
         display:none;
  }
+ 
  .experience{
      width:90%;
  }
