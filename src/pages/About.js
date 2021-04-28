@@ -44,27 +44,38 @@ const About = () =>
     <section className="container experience ">
       <div><h1>Work Experiences</h1></div>
       <div className="row justify-content-around  mb-5">
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className="box_1">
-            <div className="year">09.2020 - present</div>
+            <div className="year">02.2021 - present</div>
+            <h3>Pandar</h3>
+            <p>Created the frontend of the Pandar Web Application and the Users' Dashboard. </p>
+            <p> Integrated  APIs to the site to fetch digital currency rates and unique users' data.</p>
+            <p>Wrote PHP for the Frontend and also created a Blog.</p>
+          </div>
+        </div>
+
+        <div className="col-md-3">
+          <div className="box_1">
+            <div className="year">09.2020 - 02.2021</div>
             <h3>CitiTravelers</h3>
             <p>Created database schemas with MySQL and assisted with Frontend development where needed. </p>
             <p> Integrated Paystack's API to the site to handle payment so users can subscribe and pay for certain features.</p>
             <p>Assisted with maintenance of clients' websites.</p>
           </div>
         </div>
-        <div className="col-md-4">
+
+        <div className="col-md-3">
           <div className="box_1">
             <div className="year">08.2020 - 12.2020</div>
             <h3>Heuos</h3>
-            <p>Wrote RESTful APIs to be consumed by the Frontend team.</p>
+            <p>Consumed  RESTful APIs for the Frontend.</p>
             <p> Integrated SOAP APIs of top Financial Institutions.</p>
             <p> Wrote Unit Tests.</p>
             <p> Worked on refactoring legacy codes to make. them more efficient, clean and readable</p>
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className="box_1">
             <div className="year">04.2020 - 08.2020</div>
             <h3>Dynamix Tech Solutions</h3>

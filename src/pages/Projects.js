@@ -7,30 +7,33 @@ const Projects = () =>
           <section className="container projects">
       <div><h1>Projects</h1></div>
       <div className="row">
+
+      <div className="col-md-4 projects_1">
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1619644526/Capture1_2_mxeusi.png"} alt="pic" className="image_5 img-fluid " />
+          <h4>PANDAR APP</h4>
+          <p>A Digital Application for trading Bitcoin, Giftcards and paying Bills</p>
+          <div className="button_class d-flex justify-content-center">
+          <a href="https://pandar.ng/" target="_blank" rel="noopener noreferrer"> <button type="button" className="btn">Live Link</button> </a>
+          </div>
+        </div>
+
+        
+        <div className="col-md-4 projects_1">
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1619644446/Capture13_2_qpj8pi.png"} alt="pic" className="image_5 img-fluid" />
+          <h4>The PaymentLogue</h4>
+          <p>A Digital Learning Platform for Fintech Professionals</p>
+          <div className="button_class d-flex justify-content-center">
+          <a href="https://thepaymentlogue.com/" target="_blank" rel="noopener noreferrer"> <button type="button" className="btn">Live Link</button> </a>
+          </div>
+        </div>
+
+
         <div className="col-md-4 projects_1">
           <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/image1_mzste9.png"} alt="pic" className="image_5 img-fluid" />
           <h4>ORDER-AM</h4>
           <p>An Online Food Store</p>
           <div className="button_class d-flex justify-content-center">
           <a href="https://orderam.ng/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn">Live Link</button> </a>
-          </div>
-        </div>
-
-        <div className="col-md-4 projects_1">
-           <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/image2_rhzrmu.png"} alt="pic" className="image_5 img-fluid" />
-          <h4>SPEEDYAUTOS</h4>
-          <p>An Automobiles Website</p>
-          <div className="button_class d-flex justify-content-center">
-          <a href="https://speedyautos.ng/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn">Live Link</button> </a>
-          </div>
-        </div>
-
-        <div className="col-md-4 projects_1">
-          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306316/image9_swsdip.png"} alt="pic" className="image_5 img-fluid" />
-          <h4>CITITRAVELERS</h4>
-          <p>A Traveling/ Visa Consultant Agency</p>
-          <div className="button_class d-flex justify-content-center">
-          <a href="https://www.cititravelers.com/" target="_blank" rel="noopener noreferrer"> <button type="button" className="btn">Live Link</button> </a>
           </div>
         </div>
 

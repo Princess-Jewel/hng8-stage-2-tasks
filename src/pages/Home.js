@@ -55,11 +55,11 @@ const Home = () =>
 
         
         <div className="col-md-6 projects_1">
-          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306316/image9_swsdip.png"} alt="pic" className="image_5 img-fluid" />
-          <h4>CITITRAVELERS</h4>
-          <p>A Traveling/ Visa Consultant Agency</p>
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1619644526/Capture1_2_mxeusi.png"} alt="pic" className="image_5 img-fluid pandar" />
+          <h4>PANDAR APP</h4>
+          <p>A Digital Application for trading Bitcoin, Giftcards and paying Bills</p>
           <div className="button_class d-flex justify-content-center">
-          <a href="https://www.cititravelers.com/" target="_blank" rel="noopener noreferrer"> <button type="button" className="btn">Live Link</button> </a>
+          <a href="https://pandar.ng/" target="_blank" rel="noopener noreferrer"> <button type="button" className="btn">Live Link</button> </a>
           </div>
         </div>
 
