@@ -31,7 +31,7 @@ const Home = () =>
           I have hands-on experience working with React.js. I also have experience converting Figma and Adobe XD design mockups to HTML and CSS.
           </p>
           <div className="button_class d-flex justify-content-center">
-            <a href="https://drive.google.com/file/d/1yTTEhMF_9kfLLvGl1xL84aK0DR2fsNYI/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn_1">VIEW CV</button> </a>
+            <a href="https://drive.google.com/file/d/1P7-_TL1GgMRn8qodAzRHaIZloQ3U-G0f/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn_1">VIEW CV</button> </a>
           </div>
         </div>
         <div className="col-md-6">
