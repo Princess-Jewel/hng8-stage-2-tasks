@@ -30,7 +30,7 @@ class TypedReactDemo extends React.Component {
 
         <div className="type-wrap">
           <h2>I'm 
-            <span class="pl-2 span_1"
+            <span className="pl-2 span_1"
               style={{ whiteSpace: 'pre' }}
               ref={(el) => { this.el = el; }}
             />

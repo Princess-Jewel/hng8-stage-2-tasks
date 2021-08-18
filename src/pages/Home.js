@@ -2,19 +2,18 @@ import React from 'react';
 import Layout from '../layout';
 import TypedReactDemo from './TypedReactDemo';
 import About from '../pages/About';
-// import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
-import { Link } from "react-router-dom";
+
 
 
 const Home = () =>
-  <Layout>
 
+  <Layout>
     <section className="container home">
       <div className="row align-items-center home1">
         {/* min-vh-100 min-vw-100 */}
         <div className="col-md-6">
-          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" class="img-fluid image_second" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" className="img-fluid image_second" />
         </div>
 
         <div className="col-md-6 text-center home_1">
@@ -35,14 +34,14 @@ const Home = () =>
           </div>
         </div>
         <div className="col-md-6">
-          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" class="img-fluid image" />
+          <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306966/vector_kflkvj.jpg"} alt="pic" className="img-fluid image" />
         </div>
       </div>
     </section>
     <Layout>
 
       <section className="container projects">
-      <div><h1>Projects</h1></div>
+      <div><h1>Few Projects</h1></div>
       <div className="row">
         <div className="col-md-6 projects_1">
           <img src={"https://res.cloudinary.com/dpqxraalv/image/upload/v1609306321/image1_mzste9.png"} alt="pic" className="image_5 img-fluid" />
@@ -81,10 +80,6 @@ const Home = () =>
           <a href="https://my-github-clone.netlify.app/" target="_blank" rel="noopener noreferrer"><button type="button" className="btn">Live Link</button> </a>
           </div>
         </div>
-
-            <div className="col-md-12 view_more_btn">
-            <button className="btn"> <Link to="/projects" ><span>View More Projects</span></Link></button>
-            </div>
 
 
       </div>

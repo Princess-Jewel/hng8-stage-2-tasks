@@ -328,7 +328,7 @@ h1{
 }
 ul{
     position: relative;
-    display:flex;
+    /* display:flex; */
 }
 ul li{
     list-style:none;
@@ -358,7 +358,7 @@ footer{
     padding: 2rem 0 4rem 0;
 }
 .navbar{
-    background:  rgb(58, 47, 47) !important;
+    background:  #fff!important;
 }
 @media only screen and (max-width: 374px) {
     .box{
@@ -370,9 +370,7 @@ footer{
 }
 
 @media only screen and (max-width: 400px) {
-        .main-nav{
-            display:none;
-        }
+    
 }
 @media only screen and (min-width: 300px) {
     .image_second{
@@ -389,9 +387,7 @@ footer{
 .experience{
     width:90%;
 }
-.main-nav{
-    display:none;
-}
+
 }
 
   
@@ -413,9 +409,7 @@ footer{
      max-width: 80%;
         margin-left: 2.5rem;
  }
- .main-nav{
-    display:none;
-}
+
 }
 
 
@@ -432,11 +426,8 @@ footer{
 }
 .vector_3{
     display:block;
-    padding: 0 0 0 8rem;
   }
-  .main-nav{
-    display:none;
-}
+
 }
 
 @media (min-width:600px) and (max-width:686px) {
@@ -454,9 +445,7 @@ footer{
         max-width: 60%;
         margin-left: 10rem;
  }
- .main-nav{
-    display:none;
-}
+
 }
 
 
@@ -481,9 +470,7 @@ footer{
     width: 1.5rem;
     height: 1.5rem;
 }
-.main-nav{
-    display:none;
-}
+
 
 }
 
@@ -518,11 +505,9 @@ footer{
     margin-left: 3.5rem;
 }
 .nav_2{
-    display:none;
-}
-.main-nav{
     display:block;
 }
+
 }
 
 
@@ -543,13 +528,17 @@ footer{
     padding-right: 0.4rem;
 }
 .nav_2{
-    display:none;
-}
-.main-nav{
     display:block;
 }
+.info{
+    margin-top: 4rem;
+}
+
 }
 @media (min-width:1024px) and (max-width:1200px) {
+    .info{
+        margin-top: 4rem;
+    }
     .image{
         display: none;
  }
@@ -569,11 +558,9 @@ footer{
     margin-top: 9rem !important;
 }
 .nav_2{
-    display:none;
-}
-.main-nav{
     display:block;
 }
+
 }
 
 @media (min-width:1200px) and (max-width:1500px) {
@@ -590,11 +577,27 @@ footer{
     display:block;
   }
   .nav_2{
-    display:none;
-}
-.main-nav{
     display:block;
 }
+.info{
+    margin-top: 4rem;
 }
+
+}
+@media (min-width:1501px) {
+ .info{
+     margin-top: 8rem;
+ }
+.vector_2{
+    display:none;
+  }
+  .vector_3{
+    display:block;
+  }
+
+
+}
+
+
 
 
