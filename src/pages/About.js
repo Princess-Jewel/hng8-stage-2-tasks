@@ -47,8 +47,8 @@ const About = () =>
         <div className="col-md-4">
           <div className="box_1">
             <div className="year">02.2021 - present</div>
-            <h3>Pandar</h3>
-            <p>Created the frontend of the Pandar Web Application and the Users' Dashboard. </p>
+            <h3>Google</h3>
+            <p>Created the frontend of the Google Web Application and the Users' Dashboard. </p>
             <p> Integrated  APIs to the site to fetch digital currency rates and unique users' data.</p>
             <p>Wrote PHP for the Frontend and also created a Blog.</p>
           </div>

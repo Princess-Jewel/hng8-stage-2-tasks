@@ -8,6 +8,7 @@
     font-family: 'Exo 2', sans-serif;
     transition: all .2s linear;
 }
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -15,7 +16,9 @@ html{
 /* body{
     background: linear-gradient(rgb(32, 191, 85), rgb(32, 164, 243), rgb(11, 79, 108));
 }  */
-
+.navbar-brand{
+    margin:auto!important;
+}
 #page-container {
     position: relative;
     min-height: 100vh;
