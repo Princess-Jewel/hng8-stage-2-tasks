@@ -1,1 +1,1 @@
-[https://princess-resume.herokuapp.com/ ] Resume Link
+[https://princess-resume.herokuapp.com/ ] HNGi8 Resume Link
